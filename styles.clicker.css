@@ -1,0 +1,21 @@
+.Money {
+    font-family: Arial;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.Button-div {
+    text-align: center;
+    margin: 0;
+}
+
+.Button {
+    font-size: 50px;
+    font-family: Arial;
+    color: blue;
+    border-radius: 50px;
+    background-color: #357FFF;
+    margin: 0;
+}
