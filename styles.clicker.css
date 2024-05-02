@@ -1,0 +1,73 @@
+/*
+CSS
+*/
+
+.Money {
+    font-family: Arial;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.Button-div {
+    text-align: center;
+    margin: 0;
+}
+
+.Button {
+    font-size: 50px;
+    font-family: Arial;
+    color: blue;
+    border-radius: 50px;
+    background-color: #357FFF;
+    margin: 0;
+}
+
+.DPS_DIV {
+    text-align: right;
+    margin: 0;
+}
+
+.DPS_BUTTON {
+    font-family: Arial;
+    font-size: 30px;
+    color: blue;
+    background-color: #357FFF;
+}
+
+.DPS_PRICE {
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+    margin: 0;
+}
+
+.DPC_DIV {
+    text-align: right;
+    margin: 0;
+}
+
+.DPC_BUTTON {
+    font-family: Arial;
+    font-size: 30px;
+    color: blue;
+    background-color: #357FFF;
+}
+
+.DPC_PRICE {
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    margin: 0;
+}

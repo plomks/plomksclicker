@@ -1,0 +1,44 @@
+<!--
+HTML
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Clicker *Pre-Alpha*</title>
+        <link href="styles.clicker.css" rel="stylesheet">
+        <script src="script.clicker.js"></script>
+    </head>
+    <body>
+        <main>
+            <section>
+              <!--
+                Button and Money
+              -->
+
+                <h1 id="Text" class="Money"></h1>
+                <div class="Button-div">
+                    <button onclick="Text()" id="Button" class="Button">Click Me</button>
+                </div>
+            </section>
+            <section>
+              <!--
+                Shop
+              -->
+              <div class="DPS_DIV">
+                    <button class="DPS_BUTTON" id="DPS_BUTTON" onclick="ADDDPS()"></button>
+              </div>
+              <h1 class="DPS_PRICE" id="DPS_PRICE"></h1>
+              <div class="DPC_DIV">
+                <button class="DPC_BUTTON" id="DPC_BUTTON" onclick="ADDDPC()"></button>
+              </div>
+            <h1 class="DPC_PRICE" id="DPC_PRICE"></h1>
+            </section>
+        </main>
+        <footer class = "footer">
+            DPS = Dollars Per Second, DPC = Dollars Per Click
+        </footer>
+    </body>
+</html>
